@@ -1,0 +1,11 @@
+{
+  "source_upload": "Daam_run_Model.ipynb",
+  "source_cell_index_zero_based": 6,
+  "prompt": "An angry, bald man writing papers",
+  "model_id_from_source": "stabilityai/stable-diffusion-2-base",
+  "num_inference_steps_from_source": 20,
+  "seed": null,
+  "runtime_versions": null,
+  "rerun_with_current_code": false,
+  "image_sha256": "4bb8e626574b1f391671b6287ab7fa15b8616659413ffb52415b53b21e435819"
+}

@@ -1,0 +1,4 @@
+# Lightweight analysis and tests; no model downloads or PyTorch.
+numpy==1.26.4
+matplotlib==3.8.4
+Pillow==10.4.0

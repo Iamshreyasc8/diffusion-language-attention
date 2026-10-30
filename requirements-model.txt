@@ -1,0 +1,14 @@
+-r requirements.txt
+# Dedicated legacy research environment: Python 3.10 or 3.11.
+# DAAM 0.2.0's upstream requirements pin Diffusers/Transformers/Accelerate.
+# These are candidate compatibility pins, not a fully validated lockfile.
+daam==0.2.0
+diffusers==0.21.2
+transformers==4.30.2
+accelerate==0.23.0
+huggingface-hub==0.25.2
+torch==2.2.2
+torchvision==0.17.2
+# Keep DAAM's unbounded web-demo dependencies on a compatible generation.
+gradio==4.44.1
+spacy==3.7.5
