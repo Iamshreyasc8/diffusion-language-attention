@@ -1,0 +1,30 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*token*.txt
+credentials.json
+
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Datasets, model weights, generated results
+data/
+datasets/
+outputs/
+results/
+checkpoints/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
